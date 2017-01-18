@@ -17,6 +17,35 @@ echo "<h2>".$pagename."</h2>";
 echo "Amazing products for your home, for your work, for you!<br><br><hr>";
 echo"</div>";
 
+//create a new variable containing a SQL statement retrieving names of products from the product table
+$sql="select prodId, prodName, prodPicName, prodPrice from product";
+
+//Create a new variable containing the execution of the SQL query i.e. select the records or get out
+$result =mysqli_query($conn ,$sql) ;
+
+//create an array of records (2 dimensional variable) called $prodArray.
+//populate it with the records retrieved by the SQL query previously executed.
+//loop through the array i.e while the end of the array has not been reached go through it
+
+
+
+   while ($row=mysqli_fetch_array($result ))
+   {
+	echo "<br>";
+	//make each product a link to the next page and pass the product id to the next page by URL
+//concatenate a string of characters u_prodid which carries the value of the actual id
+	echo "<p><a href=prodinfo.php?u_prodid=".$row['prodId'].">";
+	//Display name of the product
+	echo $row['prodName']."<br>";
+	echo "</a>";
+
+	echo "<img src=images/".$row['prodPicName'].">";
+	echo "<br>";
+	echo "£".$row["prodPrice"];
+
+	echo "<br><br>";
+	echo "<hr>";
+   }
 
 mysqli_close($conn);
 //include head layout
