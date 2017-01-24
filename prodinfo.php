@@ -25,6 +25,20 @@ $thearrayprod=mysqli_fetch_array($exeprodSQL);
 //call in the style sheet called ystylesheet.css to format the page as defined in the style sheet
 echo "<link rel=stylesheet type=text/css href=mystylesheet.css>";
 
+//display window title
+echo "<title>".$pagename."</title>";
+//include head layout
+include ("headfile.html");
+include ("detectlogin.php");
+echo "<p></p>";
+//display name of the page and some random text
+echo "<h2>".$pagename."</h2>";
+echo "<p><b>".strtoupper($thearrayprod['prodName'])."</b></br>";
+echo "<img src=images/".$thearrayprod['prodPicName'].">";
+echo "<p>".$thearrayprod['prodDescrip'];
+echo "<p>"."£".$thearrayprod['prodPrice'];
+echo "<p>"."Number in stock :".$thearrayprod['prodQuantity'];
+echo"</br>";
 
 
 //include head layout
