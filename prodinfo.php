@@ -39,6 +39,14 @@ echo "<p>".$thearrayprod['prodDescrip'];
 echo "<p>"."£".$thearrayprod['prodPrice'];
 echo "<p>"."Number in stock :".$thearrayprod['prodQuantity'];
 echo"</br>";
+//display form made of one text box and one button for user to enter quantity
+//pass the product id to the next page basket.php as a hidden value
+echo "<form action=basket.php method=post>";
+echo "<p>Enter required quantity: ";
+echo"<select name='stock' >";
+     for($x=1; $x<=$thearrayprod['prodQuantity']; $x++){
+    echo "<option  value=".$x."> $x</option>";
+	 }
 
 
 //include head layout
