@@ -47,7 +47,13 @@ echo"<select name='stock' >";
      for($x=1; $x<=$thearrayprod['prodQuantity']; $x++){
     echo "<option  value=".$x."> $x</option>";
 	 }
-
+	
+ echo "</select>";
+echo "<input type=submit value='Add to Basket'>";
+echo "<input type=hidden name=h_prodid value=".$prodid.">";
+echo "<input type=hidden name=h_prodName value=".$thearrayprod['prodName'].">";
+echo "<input type=hidden name=h_prodPrice value=".$thearrayprod['prodPrice'].">";
+echo "</form>";
 
 //include head layout
 include("footfile.html");
