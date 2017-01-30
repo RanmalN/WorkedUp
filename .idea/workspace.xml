@@ -47,14 +47,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prodinfo.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="prodinfo.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prodinfo.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-96">
-              <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="55" selection-end-column="15" />
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="55" selection-end-column="15" />
               <folding>
-                <marker date="1485316966934" expanded="true" signature="534:637" ph="select prodI... product" />
+                <marker date="1485756284371" expanded="true" signature="534:637" ph="select prodI... product" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basket.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basket.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,6 +81,7 @@
         <option value="$PROJECT_DIR$/headfile.html" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/prodinfo.php" />
+        <option value="$PROJECT_DIR$/basket.php" />
       </list>
     </option>
   </component>
@@ -199,12 +210,12 @@
       <option name="presentableId" value="Default" />
       <updated>1493540710664</updated>
       <workItem from="1493540712257" duration="571000" />
-      <workItem from="1484656792797" duration="1118000" />
+      <workItem from="1484656792797" duration="1244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1689000" />
+    <option name="totallyTimeSpent" value="1815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="371" extended-state="0" />
@@ -283,10 +294,18 @@
     <entry file="file://$PROJECT_DIR$/prodinfo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-96">
-          <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="55" selection-end-column="15" />
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="55" selection-end-column="15" />
           <folding>
-            <marker date="1485316966934" expanded="true" signature="534:637" ph="select prodI... product" />
+            <marker date="1485756284371" expanded="true" signature="534:637" ph="select prodI... product" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
