@@ -63,7 +63,7 @@ if (isset($_SESSION['basket'])) {
       </tr>
       </table>";
 
-
+	
 //include head layout
 include("footfile.html");
 ?>
