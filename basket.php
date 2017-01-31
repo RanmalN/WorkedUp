@@ -39,9 +39,31 @@ echo"<tr>";
 	echo"<th>Sub Total</th>";
 echo"</tr>";
 $total = 0;
-  </table>"; 
+if (isset($_SESSION['basket'])) {
+    foreach ($_SESSION['basket'] as $key => $value) {
+        if (!$key == 0) {
+            $sql = "select * from product where prodId='".$key."';";
+            $exeSQL = mysqli_query($conn,$sql) or die (mysqli_error($conn));
+            $thearrayprod = mysqli_fetch_array($exeSQL);
 
-	
+            echo "<tr>
+			<td>" . $thearrayprod['prodName'] . "</td>
+			<td>" . $thearrayprod['prodPrice'] . "</td>
+			<td>" . $value . "</td>
+			<td>" . $value * $thearrayprod['prodPrice'] . ".00</td>
+		        </tr>";
+
+            $total +=  $value* $thearrayprod['prodPrice'];
+        }
+    }
+}
+	echo "<tr>
+          <td colspan='3'>Total</td>
+          <td>$total.00</td>
+      </tr>
+      </table>";
+
+
 //include head layout
 include("footfile.html");
 ?>
