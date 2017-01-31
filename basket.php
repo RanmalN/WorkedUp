@@ -21,8 +21,27 @@ echo "<h2>".$pagename."</h2>";
 
 
 
+if(isset($_POST['stock'])){
+@$newprodid =$_POST['h_prodid'];
 
+@$reququantity =$_POST['stock'];
+@$_SESSION['basket'][$newprodid] =$reququantity;
+echo "<p> Your basket has been updated";
+//print_r($_SESSION);
 
+}
+
+echo"<table border=1;>";
+echo"<tr>";
+        echo"<th> product name</th>";
+        echo"<th> product price</th>";
+	echo"<th> Quantity</th>";
+	echo"<th>Sub Total</th>";
+echo"</tr>";
+$total = 0;
+  </table>"; 
+
+	
 //include head layout
 include("footfile.html");
 ?>
