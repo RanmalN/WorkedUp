@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef8d2f69-41d2-4c70-9eff-07428449f740" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basket.php" afterPath="$PROJECT_DIR$/basket.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,16 +60,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basket.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="basket.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basket.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
-              <caret line="65" column="4" lean-forward="false" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
-                <marker date="1485882383343" expanded="true" signature="1170:1215" ph="select * fro... product" />
-                <marker date="1485882383343" expanded="true" signature="1375:1570" ph="..." />
-                <marker date="1485882383343" expanded="true" signature="1662:1740" ph="..." />
+                <marker date="1486728570050" expanded="true" signature="1170:1215" ph="select * fro... product" />
+                <marker date="1486728570050" expanded="true" signature="1375:1570" ph="..." />
+                <marker date="1486728570050" expanded="true" signature="1662:1740" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clearbasket.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/clearbasket.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,6 +97,7 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/prodinfo.php" />
         <option value="$PROJECT_DIR$/basket.php" />
+        <option value="$PROJECT_DIR$/clearbasket.php" />
       </list>
     </option>
   </component>
@@ -214,12 +226,12 @@
       <option name="presentableId" value="Default" />
       <updated>1493540710664</updated>
       <workItem from="1493540712257" duration="571000" />
-      <workItem from="1484656792797" duration="1359000" />
+      <workItem from="1484656792797" duration="1560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1930000" />
+    <option name="totallyTimeSpent" value="2131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="371" extended-state="0" />
@@ -308,12 +320,20 @@
     <entry file="file://$PROJECT_DIR$/basket.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="65" column="4" lean-forward="false" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
-            <marker date="1485882383343" expanded="true" signature="1170:1215" ph="select * fro... product" />
-            <marker date="1485882383343" expanded="true" signature="1375:1570" ph="..." />
-            <marker date="1485882383343" expanded="true" signature="1662:1740" ph="..." />
+            <marker date="1486728570050" expanded="true" signature="1170:1215" ph="select * fro... product" />
+            <marker date="1486728570050" expanded="true" signature="1375:1570" ph="..." />
+            <marker date="1486728570050" expanded="true" signature="1662:1740" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clearbasket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
