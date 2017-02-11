@@ -14,6 +14,13 @@ include ("headfile.html");
 include ("detectlogin.php");
 
 echo "<p></p>";
-//display name of the page and so
+//display name of the page and some random text
+echo "<h2>".$pagename."</h2>";
+
+unset($_SESSION['basket']);
+
+$_SESSION['basket'][0] = 0;
+
+echo "<p>Ordering basket is clear now!</p>";
 
 ?>
