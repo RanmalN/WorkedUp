@@ -67,3 +67,6 @@ if (isset($_SESSION['basket'])) {
 //include head layout
 include("footfile.html");
 ?>
+//include head layout
+include("footfile.html");
+?>
