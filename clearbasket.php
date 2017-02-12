@@ -23,4 +23,6 @@ $_SESSION['basket'][0] = 0;
 
 echo "<p>Ordering basket is clear now!</p>";
 
+//include head layout
+include("footfile.html");
 ?>
